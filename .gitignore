@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /vendor/
 node_modules/
 npm-debug.log
@@ -22,3 +23,7 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 ./.idea
+=======
+/vendor
+.idea/
+>>>>>>> 62a6352 (init)

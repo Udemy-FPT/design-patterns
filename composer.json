@@ -1,0 +1,34 @@
+{
+    "name": "hirodev/base-design-patterns",
+    "description": "This package used to generate repositories, service, interface in laravel",
+    "keywords": [
+        "repository",
+        "repository pattern",
+        "eloquent",
+        "repositories"
+    ],
+    "minimum-stability": "dev",
+    "type": "library",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hirodev\\BaseDesignPatterns\\CommandProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hirodev\\BaseDesignPatterns\\": "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "authors": [
+        {
+            "name": "tailt9",
+            "email": "tientai206@gmail.com"
+        }
+    ]
+}
