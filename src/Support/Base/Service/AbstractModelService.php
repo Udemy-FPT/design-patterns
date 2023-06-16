@@ -1,5 +1,6 @@
 <?php
 namespace Hirodev\BaseDesignPatterns\Support\Base\Service;
+
 Abstract class AbstractModelService implements AbstractModelServiceInterface
 {
     abstract public function getList();

@@ -1,7 +1,6 @@
 <?php
 namespace Hirodev\BaseDesignPatterns\Support\Base\Repository;
 
-
 abstract class AbstractModelRepository implements AbstractModelRepositoryInterface
 {
     protected $model;
