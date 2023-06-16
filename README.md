@@ -10,6 +10,8 @@ This is a package to auto generate repositories, services, interface.
     <li><a href="#Make-Repository">Make Repository</a></li>
     <li><a href="#Make-Service">Make Service</a></li>
     <li><a href="#Make-Trait">Make Trait</a></li>
+    <li><a href="#Publish-Repository"> Publish Model Repository & Repository Interface</a> </li>
+    <li><a href="#Publish-Service"> Publish Model Service & Service Interface</a> </li>
   </ol>
 </div>
 <!-- End list of command -->
@@ -82,6 +84,32 @@ php artisan make:trait Backend/CheckAuth
 ```
 <br />
 
+## Publish Repository
+__Publish Base Repository.__\
+`php artisan vender:publish`
+
+All function in base repository
+```
+public function find(array $conditions = []);
+public function findOne(array $conditions);
+public function findById(int $id);
+public function create(array $attributes);
+public function update(Model $model, array $attributes = []);
+public function save(Model $model);
+public function delete(Model $model);
+public function get($query);
+public function destroy(array $ids);
+public function findCount(array $conditions);
+public function toBase($query);
+public function updateMultiple(Builder $query, array $attributes = []);
+public function updateOrCreate(array $attributes, array $values);
+public function findAll();
+public function findByIds(array $ids);
+public function model();
+public function makeModel();
+public function resetModel();
+```
+<br />
 
 
 ## License
